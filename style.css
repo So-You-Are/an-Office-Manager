@@ -1,0 +1,9 @@
+/*import google font*/
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,500i,700,800,800i');
+
+body{
+	background-image: url('image/brown_background.jpg');
+	background-size: cover;
+	background background-blend-mode: color-dodge;
+	font-family: "Raleway", 
+}
