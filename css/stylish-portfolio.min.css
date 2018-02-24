@@ -18,11 +18,11 @@ body {
 }
 
 .content-section-heading h2 {
-    font-size: 3rem
+    font-size: 3.5rem
 }
 
 .content-section-heading h3 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-transform: uppercase
 }
 
@@ -88,8 +88,10 @@ h1, h2, h3, h4, h5, h6 {font-weight: 700}
 
 .masthead h1 {
     font-size: 5rem;
+    text-transform: uppercase;
     margin: 0;
     padding: 0
+
 }
 
 @media (min-width:992px) {
@@ -97,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {font-weight: 700}
         height: 100vh
     }
     .masthead h1 {
-        font-size: 5rem
+        font-size: 4.5rem
 
 
     }
