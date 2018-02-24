@@ -96,7 +96,7 @@ h6 {
 .masthead h1 {
   font-size: 4rem;
   margin: 0;
-  padding: 0;
+  padding: 10;
 }
 
 @media (min-width: 992px) {
