@@ -78,18 +78,31 @@ h1 , h2, h3, h4, h5, h6 {font-weight: 700}
     display: table;
     width: 100%;
     height: auto;
+    
     /* the padding settings */ 
     padding-top: -2rem;
     padding-bottom: 6rem;
     padding-left: 5rem;
     padding-right: 5rem;
+    
+    /*the background image */
     background: linear-gradient(90deg, 
         rgba(255, 255, 255, .1) 0, 
         rgba(255, 255, 255, .1) 100%), 
         url(../img/tom/khai-sze-ong-308080-unsplash-edited-small.jpg);
+    
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover
+    
+    /*url(../img/logo/SYA_White_logo_x0.30.png) */
+}
+
+.my_logo {
+    text-indent: -9999999px;
+    background: url(.../img/logo/So You Are dots gray.png);
+    width: 370px;
+    height: 220px;
 }
 
 .masthead h1 {
