@@ -79,14 +79,14 @@ h1 , h2, h3, h4, h5, h6 {font-weight: 700}
     width: 100%;
     height: auto;
     /* the padding settings */ 
-    padding-top: 0rem;
-    padding-bottom: 0rem;
-    padding-left: 30rem;
-    padding-right: 10rem;
+    padding-top: -2rem;
+    padding-bottom: 6rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     background: linear-gradient(90deg, 
         rgba(255, 255, 255, .1) 0, 
         rgba(255, 255, 255, .1) 100%), 
-        url(../img/tom/joanna-kosinska-289519-unsplash.jpg);
+        url(../img/tom/khai-sze-ong-308080-unsplash-edited.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover
