@@ -79,9 +79,9 @@ h1 , h2, h3, h4, h5, h6 {font-weight: 700}
     width: 100%;
     height: auto;
     
-    /* the padding settings */ 
+    /* the header padding settings */ 
     padding-top: -2rem;
-    padding-bottom: 6rem;
+    padding-bottom: 9rem;
     padding-left: 5rem;
     padding-right: 5rem;
     
@@ -341,6 +341,25 @@ a:focus,
 a:hover {
     color: #155d74
 }
+
+.chimpbutton {
+    background-color: #1d809f!important;
+    border-color: #1d809f!important;
+    color: #ffffff!important;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-radius: 5px;
+    font-size: 18px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
+    }
+
+.chimpbutton:hover {
+    background-color: #DF44F9!important;
+    border-color: #DF44F9!important;
+    
+    }
 
 .btn-primary {
     background-color: #1d809f!important;
