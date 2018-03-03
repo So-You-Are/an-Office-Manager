@@ -346,10 +346,10 @@ a:hover {
     background-color: #1d809f!important;
     border-color: #1d809f!important;
     color: #ffffff!important;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 2px;
-    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 5px;
     border-radius: 4px;
     font-size: 15px;
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
