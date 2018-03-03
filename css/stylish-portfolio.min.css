@@ -348,8 +348,8 @@ a:hover {
     color: #ffffff!important;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 1px;
+    padding-bottom: 1px;
     border-radius: 4px;
     font-size: 15px;
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
