@@ -164,8 +164,13 @@
     <!-- Custom scripts for this template -->
     <script src="js/stylish-portfolio.min.js"></script>
 
-
-    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"13749b19d9dbcc063358cef33","lid":"72b84b64e6"}) })</script>
+    <!-- Mailchimp pop up form delayed 15 seconds -->
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+    <script type="text/javascript">
+      setTimeout(function(){
+          require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"13749b19d9dbcc063358cef33","lid":"72b84b64e6"}) })
+        }, 15000);
+    </script>
 
   </body>
 
