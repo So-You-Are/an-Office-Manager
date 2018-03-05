@@ -157,7 +157,7 @@ h1,h2,h3,h4,h5,h6 {
         color:#14576c;
         font-style: italic;
         font-weight:200; 
-        font-size: 1.2rem; 
+        font-size: 1.3rem; 
         text-align: center;
         line-height: 1
     }
@@ -510,10 +510,10 @@ a:hover {
 
         
         /* the header padding settings */ 
-        padding-top: 0rem;
+        padding-top: 4rem;
         padding-bottom: 20rem;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
         
         /*the background image */
         background: linear-gradient(90deg, 
@@ -530,7 +530,7 @@ a:hover {
 
     .masthead h1 {
         margin: 0;
-        padding: 0:
+        padding: 0;
 
     }
     
@@ -538,11 +538,12 @@ a:hover {
         font-size: 1.8rem;
         text-transform: uppercase;
         font-weight: bold;
+        
     }
     
     h2 {
         font-size: 1.2rem;
-        color:#FFFFFF; 
+        color: transparent; 
         font-style: italic;
         font-weight: 450; 
         text-align: center
@@ -566,10 +567,11 @@ a:hover {
 
     h5 {
         font-size: 1rem; 
-        color:#14576c;
+        color:transparent;
         font-style: italic;
         font-weight:200; 
         text-align: center;
         line-height: 1
+    
     }
 
