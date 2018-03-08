@@ -501,6 +501,7 @@ a:hover {
 
 @media only screen and (max-width: 767px) {
 
+
     .masthead {
         min-height: 30rem;
         position: bottom center;
@@ -542,8 +543,8 @@ a:hover {
     }
     
     h2 {
+        display: none;
         font-size: 1.2rem;
-        color: transparent; 
         font-style: italic;
         font-weight: 450; 
         text-align: center
@@ -566,8 +567,8 @@ a:hover {
     }
 
     h5 {
+        display: none;
         font-size: 1rem; 
-        color:transparent;
         font-style: italic;
         font-weight:200; 
         text-align: center;
@@ -575,3 +576,6 @@ a:hover {
     
     }
 
+
+
+}
