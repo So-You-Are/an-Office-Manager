@@ -10,7 +10,7 @@ body {
 
 
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6, {
     font-weight: 700; 
     line-height: 1.5;
     color: #ffffff
@@ -124,15 +124,16 @@ h1,h2,h3,h4,h5,h6 {
     }
     
     h1 {
-        font-size: 2.6rem;
-        text-transform: uppercase;
-        font-weight: bold;
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+        color: white;
+
     }
     
     h2 {
         font-size: 1.5rem;
-        color:#FFFFFF; 
-        font-style: italic;
+        color:#FFFFFF;
+        font-style: italic; 
         font-weight: 550; 
         text-align: center
     }
@@ -161,6 +162,14 @@ h1,h2,h3,h4,h5,h6 {
         text-align: center;
         line-height: 1
     }
+
+    h6 {
+        color:white;
+        font-style: italic;
+        font-weight:550; 
+        font-size: 3rem; 
+
+    
 
 }
 
@@ -447,7 +456,7 @@ a:hover {
     color: #ecb807!important
 }
 
-@media only screen and (min-width: 767px) and (max-width: 1000px) {
+@media screen and (min-width: 767px) and (max-width: 1000px) {
 
  .masthead {
         height: 100vh
@@ -460,8 +469,10 @@ a:hover {
     
     h1 {
         font-size: 2.3rem;
-        text-transform: uppercase;
         font-weight: bold;
+        line-height: 2.6rem;
+
+
     }
     
     h2 {
@@ -499,7 +510,7 @@ a:hover {
 
 }
 
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
 
 
     .masthead {
@@ -537,8 +548,9 @@ a:hover {
     
     h1 {
         font-size: 1.8rem;
-        text-transform: uppercase;
         font-weight: bold;
+        line-height: 2rem;
+
         
     }
     
@@ -564,6 +576,7 @@ a:hover {
         font-style: italic;
         font-weight: 400;         
         text-align: center;
+        
     }
 
     h5 {
