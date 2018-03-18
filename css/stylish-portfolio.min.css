@@ -151,6 +151,9 @@ h1,h2,h3,h4,h5,h6 {
         font-style: italic;
         font-weight: 400;         
         text-align: center;
+        text-transform: capitalize;
+
+
     }
 
     h5 {
@@ -486,6 +489,7 @@ a:hover {
         font-style: italic;
         font-weight: 400;         
         text-align: center;
+        text-transform: capitalize;
     }
 
     h5 {
@@ -564,6 +568,7 @@ a:hover {
         font-style: italic;
         font-weight: 400;         
         text-align: center;
+        text-transform: capitalize;
     }
 
     h5 {
